@@ -1,0 +1,18 @@
+$primary: #1D1D1E;
+$secondary: #FFFFFF;
+
+
+
+nav{
+    background-color:$primary;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    
+}
+
+
+
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+

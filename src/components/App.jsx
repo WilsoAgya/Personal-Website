@@ -1,5 +1,8 @@
+import React from 'react';
 import Hero from './Hero/Hero.jsx'
 import Nav from './Nav/Nav.jsx'
+
+
 
 function App() {
   
