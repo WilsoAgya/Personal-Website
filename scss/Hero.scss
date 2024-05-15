@@ -1,0 +1,41 @@
+$primary: #1D1D1E;
+$secondary: #FFFFFF;
+$outline:#7B1BF5;
+
+header{
+    background-color: $primary;
+    color: $secondary;
+}
+
+.intro{
+  font-size:40px;
+}
+
+.greeting{
+    
+    color: $primary; // Set text color
+  text-shadow:
+    -1px -1px 0 $outline,
+    1px -1px 0 $outline,
+    -1px 1px 0 $outline,
+    1px 1px 0 $outline;
+    font-size:60px;
+  
+}
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: $outline; /* Adjust color as needed */
+}
+
+.profilepic{
+  width:300px;
+}

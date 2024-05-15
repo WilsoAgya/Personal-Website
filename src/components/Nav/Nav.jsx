@@ -5,12 +5,12 @@ function Nav() {
     return (
         <nav class="navbar navbar-expand-md">
             <div class="container-xl">
-                <h2 class="text-secondary fw-light">WA</h2>
-                <button type="button" 
+                <h2 class="text-secondary fw-light mx-lg-3">WA</h2>
+                <button type="button"
                         class="navbar-toggler" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        >
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
