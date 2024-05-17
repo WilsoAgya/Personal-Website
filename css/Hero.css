@@ -1,1 +1,53 @@
+header {
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  color: #FFFFFF;
+}
 
+.intro {
+  font-size: 50px;
+}
+
+.greeting {
+  color: #1D1D1E;
+  text-shadow: -1px -1px 0 #7B1BF5, 1px -1px 0 #7B1BF5, -1px 1px 0 #7B1BF5, 1px 1px 0 #7B1BF5;
+  font-size: 70px;
+}
+
+.text-responsive-center {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .text-responsive-center {
+    text-align: left;
+  }
+}
+
+.btn-purple-gradient {
+  background: linear-gradient(to right, #7B1BF5, #9B2BE0);
+  border: none;
+  color: #FFFFFF;
+}
+.btn-purple-gradient:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.profilepic {
+  width: 350px;
+  border-radius: 90px;
+  border-color: #7B1BF5;
+  border-width: 5px;
+  border-style: solid;
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  /* Center the image vertically within its container */
+}
+@media (max-width: 576px) {
+  .profilepic {
+    margin-bottom: 50px;
+  }
+}
+
+.linkedin {
+  width: 40px;
+}

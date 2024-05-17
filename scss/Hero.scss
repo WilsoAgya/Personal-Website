@@ -1,14 +1,17 @@
+
 $primary: #1D1D1E;
 $secondary: #FFFFFF;
 $outline:#7B1BF5;
 
 header{
-    background-color: $primary;
+    //background-color: $primary;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
     color: $secondary;
 }
 
 .intro{
-  font-size:40px;
+  font-size:50px;
 }
 
 .greeting{
@@ -19,23 +22,50 @@ header{
     1px -1px 0 $outline,
     -1px 1px 0 $outline,
     1px 1px 0 $outline;
-    font-size:60px;
+    font-size:70px;
+    
   
 }
-.underline {
-  position: relative;
+.text-responsive-center {
+  text-align: center;
+
+  @media (min-width: 576px) { // sm breakpoint and up
+    text-align: left;
+  }
 }
 
-.underline::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: $outline; /* Adjust color as needed */
+$gradient-start: #7B1BF5; // Dark 
+$gradient-end: #9B2BE0;   // Light purple
+$text-color: #FFFFFF;
+$disabled-opacity: 0.65;
+
+.btn-purple-gradient {
+  background: linear-gradient(to right, $gradient-start, $gradient-end); // Define the gradient
+  border: none; // Optional: Removes any border
+  color: $text-color; // Sets the text color
+
+  &:disabled {
+    opacity: $disabled-opacity; // Sets the opacity for disabled state
+    cursor: not-allowed; // Changes cursor to indicate disabled button
+  }
 }
+
 
 .profilepic{
-  width:300px;
+  width:350px;
+  border-radius:90px;
+  border-color:#7B1BF5;
+  border-width:5px;
+  border-style:solid;
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  @media (max-width: 576px) { // sm breakpoint
+    margin-bottom: 50px;
+  } /* Center the image vertically within its container */
 }
+
+
+
+.linkedin{
+  width:40px;
+}
+
