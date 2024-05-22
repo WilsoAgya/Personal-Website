@@ -5,8 +5,7 @@ $outline:#7B1BF5;
 
 header{
     //background-color: $primary;
-    background-color: #4d4855;
-    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
     color: $secondary;
 }
 
@@ -16,19 +15,15 @@ header{
 
 .greeting{
     
-    color: $primary; // Set text color
-  text-shadow:
-    -1px -1px 0 $outline,
-    1px -1px 0 $outline,
-    -1px 1px 0 $outline,
-    1px 1px 0 $outline;
+    
     font-size:70px;
+    
     
   
 }
 .text-responsive-center {
-  text-align: center;
-
+  
+  text-align:center;
   @media (min-width: 576px) { // sm breakpoint and up
     text-align: left;
   }
@@ -54,11 +49,15 @@ $disabled-opacity: 0.65;
 .profilepic{
   width:350px;
   border-radius:90px;
+  margin-left:20px;
   border-color:#7B1BF5;
   border-width:5px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   border-style:solid;
   max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  @media (max-width: 576px) { // sm breakpoint
+  @media (max-width: 600px) { // sm breakpoint
     margin-bottom: 50px;
   } /* Center the image vertically within its container */
 }
