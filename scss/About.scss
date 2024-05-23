@@ -1,21 +1,17 @@
-$secondary: #FFFFFF;
+$secondary: #ffffff;
 
-.bio{
-    color: $secondary;
-    text-align:left;
-    line-height: 2;
-    
-    
+.bio {
+  color: $secondary;
+  text-align: left;
+  line-height: 2;
 }
 
-.title{
-    font-family:"Inter",sans-serif;
-    font-size:50px;
-    color:$secondary;
-    padding-left:34%;
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: $secondary;
 }
 
-.move-up{
-    margin-bottom:40px;
-
+.move-up {
+  margin-bottom: 40px;
 }
