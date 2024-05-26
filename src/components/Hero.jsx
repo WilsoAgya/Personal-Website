@@ -9,9 +9,9 @@ function Hero() {
     <div>
       <header>
         <div className="container-xl">
-          <div className="row mt-md-2 py-lg-4 px-4">
+          <div className="row mt-auto py-auto px-4">
             <div className="col-lg-12 col-md-12">
-              <div className="mt-lg-5 py-4">
+              <div className="mt-lg-5 py-5">
                 <div className="row">
                   <div className="col-md-6">
                     <div class="text-responsive-center text-responsive-md-center">
@@ -24,12 +24,11 @@ function Hero() {
                         </span>
                       </h1>
                       <h5 className="col-lg-12 mt-3 mt-md-5 desc text-responsive-center">
-                        A Computer Science student and full stack
-                        developer based in British Columbia, Canada with an
-                        eagerness to strengthen my knowledge in software
-                        development. I create web applications with the sole
-                        intent of providing a pleasing digital experience for
-                        clients.
+                        A Computer Science student and full stack developer
+                        based in British Columbia, Canada with an eagerness to
+                        strengthen my knowledge in software development. I
+                        create web applications with the sole intent of
+                        providing a pleasing digital experience for clients.
                       </h5>
                       <div class="mt-lg-3">
                         <img
