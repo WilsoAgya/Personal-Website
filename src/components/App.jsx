@@ -12,8 +12,9 @@ function App() {
       <div className="content">
         <Nav />
         <Hero />
-        <About />
         <Skills />
+        <About />
+        
       </div>
     </div>
   );
