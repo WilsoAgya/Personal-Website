@@ -9,7 +9,7 @@ function About() {
         <div className="row mt-5 py-5">
           <div className="col-lg-4">
             <div className="mx-1">
-              <div className="row mt-5 py-3">
+              <div className="row mt-auto py-auto">
                 <Lottie animationData={animationData} />
               </div>
             </div>
