@@ -1,27 +1,26 @@
 import "/scss/About.scss";
+import profilepic from "/images/profilepic.jpg";
+
 
 function About() {
   return (
     <div className="container-xl">
-      <div className="mt-5 py-5">
+      <div className="mt-lg-5 py-3">
         <div className="row mt-5 py-5">
           <div className="col-lg-4">
-            <div className="mx-1">
-              <div className="row">
-                <iframe
-                  src="https://open.spotify.com/embed/playlist/0ZAiwXozWzQle3kHk4HF2j?utm_source=generator"
-                  width="100%"
-                  height="352"
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                  loading="lazy"
-                  allowFullScreen
-                  className="mt-5"
-                ></iframe>
-              </div>
+            <div className="mx-1">           
+                <div>
+                      <img
+                      src={profilepic}
+                      alt="Profile Picture"
+                      className="profilepic"
+                        ></img>
+                        </div>          
             </div>
           </div>
-          <div className="col-lg-7 mt-5">
+          <div className="col-lg-7 mt-4">
             <h1 className="title">ABOUT ME</h1>
+
             <h5 className="bio">
               I'm currently a third year Computer Science student studying at
               the University of the Fraser Valley, with a concentration in

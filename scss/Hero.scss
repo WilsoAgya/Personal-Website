@@ -13,10 +13,21 @@ header{
   font-size:50px;
 }
 
+.display-hero {
+  height: auto; /* Default height for smaller screens */
+}
+
+@media (min-width: 700px) {
+  .display-hero {
+    height: 100vh;
+  }
+}
+
 .greeting{
     
     
     font-size:70px;
+    font-weight:600;
     
     
   
@@ -47,7 +58,7 @@ $disabled-opacity: 0.65;
 
 
 .profilepic{
-  width:350px;
+  width:400px;
   border-radius:90px;
   margin-left:20px;
   border-color:#7B1BF5;

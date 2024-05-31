@@ -1,6 +1,4 @@
 header {
-  background-color: #4d4855;
-  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
   color: #FFFFFF;
 }
 
@@ -9,8 +7,6 @@ header {
 }
 
 .greeting {
-  color: #1D1D1E;
-  text-shadow: -1px -1px 0 #7B1BF5, 1px -1px 0 #7B1BF5, -1px 1px 0 #7B1BF5, 1px 1px 0 #7B1BF5;
   font-size: 70px;
 }
 
@@ -39,6 +35,9 @@ header {
   margin-left: 20px;
   border-color: #7B1BF5;
   border-width: 5px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border-style: solid;
   max-width: 100%; /* Ensure the image doesn't exceed its container's width */
   /* Center the image vertically within its container */
