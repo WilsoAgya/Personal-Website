@@ -1,5 +1,10 @@
 import React from "react";
+import React from "react";
 import "/scss/App.scss";
+import Hero from "./Hero.jsx";
+import Nav from "./Nav.jsx";
+import About from "./About.jsx";
+import Skills from "./Skills.jsx";
 import Hero from "./Hero.jsx";
 import Nav from "./Nav.jsx";
 import About from "./About.jsx";
@@ -19,6 +24,7 @@ function App() {
       </div>
     </div>
   );
+
 }
 
 export default App;
