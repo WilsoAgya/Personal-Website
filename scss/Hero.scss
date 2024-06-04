@@ -14,7 +14,7 @@ header{
 }
 
 .display-hero {
-  height: auto; /* Default height for smaller screens */
+  height:auto; /* Default height for smaller screens */
 }
 
 @media (min-width: 700px) {
@@ -58,9 +58,8 @@ $disabled-opacity: 0.65;
 
 
 .profilepic{
-  width:400px;
-  border-radius:90px;
-  margin-left:20px;
+  width:370px;
+  border-radius:200px;
   border-color:#7B1BF5;
   border-width:5px;
     height: auto;
@@ -68,9 +67,12 @@ $disabled-opacity: 0.65;
     margin: 0 auto;
   border-style:solid;
   max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  @media (max-width: 600px) { // sm breakpoint
-    margin-bottom: 50px;
-  } /* Center the image vertically within its container */
+  @media (max-width: 700px) { // sm breakpoint
+    margin-bottom: 60px;
+    
+    
+  }
+ 
 }
 
 
