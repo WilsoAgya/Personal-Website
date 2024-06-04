@@ -12,6 +12,32 @@ $secondary: #ffffff;
   color: $secondary;
 }
 
+.display-about{
+  height:auto;
+}
+
 .move-up {
   margin-bottom: 40px;
+}
+
+.lottie{
+  @media (max-width: 900px) {
+    margin-right: 50px; // Adjust as needed for medium screens
+  }
+
+  @media (max-width: 576px) {
+    margin-bottom: 20px; // Ensure spacing on small screens
+  }
+}
+.lottie-animation {
+  width: 100%;
+  max-width: 500px; // Default max width
+}
+
+.text-responsive-center {
+  
+  text-align:center;
+  @media (min-width: 576px) { // sm breakpoint and up
+    text-align: left;
+  }
 }
