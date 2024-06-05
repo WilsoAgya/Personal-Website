@@ -57,22 +57,34 @@ $disabled-opacity: 0.65;
 }
 
 
-.profilepic{
-  width:370px;
-  border-radius:200px;
-  border-color:#7B1BF5;
-  border-width:5px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  border-style:solid;
-  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  @media (max-width: 700px) { // sm breakpoint
+.profilepic {
+  background-image: url("images/profilepic.jpg");
+  width: 370px;
+  height: 370px;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 5px 5px 5px rgba(123, 27, 245); /* Corrected rgba format */
+  animation: animate 5s ease-in-out infinite; /* Corrected ease-in-out syntax */
+  transition: all 1s ease-in-out;
+}
+
+@media (max-width: 700px) {
+  .profilepic {
+    width:350px;
+    width:350px;
     margin-bottom: 60px;
-    
-    
   }
- 
+}
+
+@keyframes animate {
+  0%, 100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
 }
 
 
