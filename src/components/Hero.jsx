@@ -30,7 +30,7 @@ function Hero(){
                             </div>
                            
                             <div className="col-lg-6 col-md-6 mt-lg-3 order-first order-md-last">
-                                <img src={profilepic} alt="Profile Picture" className="profilepic"></img>
+                                <div className="profilepic"></div>
                            
                             </div>
                         </div>

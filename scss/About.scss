@@ -37,7 +37,7 @@ $secondary: #ffffff;
 .text-responsive-center {
   
   text-align:center;
-  @media (min-width: 576px) { // sm breakpoint and up
+  @media (min-width: 900px) { // sm breakpoint and up
     text-align: left;
   }
 }

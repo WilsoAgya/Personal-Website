@@ -4,6 +4,7 @@ import Hero from "./Hero.jsx";
 import Nav from "./Nav.jsx";
 import About from "./About.jsx";
 import Skills from "./Skills.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects/>
         
         
       </div>
