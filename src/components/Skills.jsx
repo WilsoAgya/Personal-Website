@@ -96,8 +96,9 @@ function Skills() {
 
   return (
     <div className="container-xl">
-      <div className="row my-5 py-5 py-lg-2 px-4">
-        <div>
+    
+      <div className="row mx-lg-5 my-5">
+        <div className="col-12 mt-5 py-5">
           <h1 className="title">MY SKILLS</h1>
           <h3 className="subtitle">Frontend</h3>
           <div>
@@ -117,6 +118,7 @@ function Skills() {
           </div>
         </div>
       </div>
+    
     </div>
   );
 }

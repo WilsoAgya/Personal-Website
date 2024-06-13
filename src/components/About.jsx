@@ -4,13 +4,13 @@ import Lottie from "lottie-react";
 
 function About() {
   return (
-    <div className="container-xl overflow-hidden">
-      <div className="row mt-lg-auto py-lg-auto mt-5 py-5">
-        <div className="col-lg-4 col-md-12 lottie">
-          <Lottie 
-            animationData={animationData} 
-            className="lottie-animation mx-auto"
+    <div className="container overflow-hidden">
+      <div className="row py-lg-auto my-5  mx-lg-5">
+        <div className="col-lg-3 d-flex justify-content-center ">
+          <img src = "/images/wilson.png" 
+            width="200px"
             
+             
           />
         </div>
         <div className="col">

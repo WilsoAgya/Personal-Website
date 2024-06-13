@@ -1,7 +1,9 @@
 
 $primary: #1D1D1E;
-$secondary: #FFFFFF;
+$secondary: #ebe9fc;
 $outline:#7B1BF5;
+
+
 
 header{
     //background-color: $primary;
@@ -26,13 +28,20 @@ header{
 .greeting{
     
     
-    font-size:70px;
-    font-weight:600;
+  font-size: 70px;
+  color: #bf04fb;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:  #bf04fb;
+  
+ 
+    
+   
+    
     
     
   
 }
-.text-responsive-center {
+.text-responsive-center-hero {
   
   text-align:center;
   @media (min-width: 576px) { // sm breakpoint and up
@@ -40,41 +49,33 @@ header{
   }
 }
 
-$gradient-start: #7B1BF5; // Dark 
-$gradient-end: #9B2BE0;   // Light purple
-$text-color: #FFFFFF;
-$disabled-opacity: 0.65;
 
-.btn-purple-gradient {
-  background: linear-gradient(to right, $gradient-start, $gradient-end); // Define the gradient
+
+.btn.custom {
+  background-color:#bf04fb;
   border: none; // Optional: Removes any border
-  color: $text-color; // Sets the text color
+  color: $secondary; // Sets the text color
 
-  &:disabled {
-    opacity: $disabled-opacity; // Sets the opacity for disabled state
-    cursor: not-allowed; // Changes cursor to indicate disabled button
-  }
 }
 
 
 .profilepic {
-  background-image: url("images/profilepic.jpg");
-  width: 370px;
-  height: 370px;
+  
+  width:370px;
+  height:auto;
   display: block;
   margin: 0 auto;
+ 
+  
   background-size: cover;
-  background-position: center center;
-  box-shadow: 0 5px 5px 5px rgba(123, 27, 245); /* Corrected rgba format */
-  animation: animate 5s ease-in-out infinite; /* Corrected ease-in-out syntax */
-  transition: all 1s ease-in-out;
+  
 }
 
 @media (max-width: 700px) {
   .profilepic {
     width:350px;
     width:350px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 }
 

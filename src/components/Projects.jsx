@@ -5,24 +5,28 @@ function Projects() {
   const ProjectList =[
     { image:"images/pokeguess.png",
       name:'PokeGuess',
-      description:'Inspired by websites such as Wordle and MLB Pickle, PokeGuess lets users compete amongst themselves to see how quickly they can figure out the mystery Pokémon from an increasingly large database. The aim of the game is to guess the Pokémon in the fewest amount of tries possible. Each time a guess is made, more information is made available to the player.',
+      tags:["React.js","RestAPI","Git"],
+      description:'PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.',
     },
     {
       name:'Travel List',
+      tags:["React.js"],
       description: 'A web-application made for keeping track of items that you are wanting to bring on a trip. This was made using React-JS'
     },
     {
+    image:"images/website.png",
     name:'Portfolio',
-      description: 'This web-application was designed to showcase my skills and accomplishments as a programmer. This website was made using BootStrap 5 and React-JS'
+    tags:["React.js","SASS","Bootstrap","Git"],
+      description: 'This web-application was designed to showcase my skills as a programmer. This website was made using BootStrap 5 and React-JS'
     }
   ]
 
     return(
   <div className="container-xl">
-    <div className="row my-5 py-5 py-lg-5 px-4 align-items-center justify-content-center">
-    <h1 className="title">PROJECTS</h1>
+    <div className="row my-5 mx-lg-5 py-5 align-items-center justify-content-center">
     <div class="row">
-      {ProjectList.map((project) => <Cards name={project.name} image={project.image} description={project.description}>
+    <h1 className="title">PROJECTS</h1>
+      {ProjectList.map((project) => <Cards name={project.name} tags={project.tags} image={project.image} description={project.description}>
       </Cards>)}
     </div>
     </div>
@@ -35,10 +39,16 @@ function Cards(props){
   return(
   
   <div className="col-4">
-    <div className="card border-0">
-      <img src ={props.image} alt={props.name}/>
-      <div className="card-body text-center">
-        <h6>{props.description}</h6>
+    <div className="card card-styles">
+      <img src ={props.image} alt={props.name} className="img-style"/>
+      <h4 className="card-header">{props.name}</h4>
+      <div className="tags">
+        {props.tags.map((tag) => (
+          <div className="tag">{tag}</div>
+        ))}
+      </div>
+      <div className="card-body">
+        <h6 className="card-desc">{props.description}</h6>
       </div>
     </div>
   </div>
