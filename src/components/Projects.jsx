@@ -23,7 +23,7 @@ function Projects() {
 
     return(
   <div className="container-xl">
-    <div className="row my-5 mx-lg-5 py-5 align-items-center justify-content-center">
+    <div className="row my-5 mx-lg-5 py-5">
     <div class="row">
     <h1 className="title">PROJECTS</h1>
       {ProjectList.map((project) => <Cards name={project.name} tags={project.tags} image={project.image} description={project.description}>
@@ -38,7 +38,7 @@ function Cards(props){
 
   return(
   
-  <div className="col-4">
+  <div className="col-lg">
     <div className="card card-styles">
       <img src ={props.image} alt={props.name} className="img-style"/>
       <h4 className="card-header">{props.name}</h4>
