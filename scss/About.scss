@@ -1,8 +1,7 @@
-$secondary: #ffffff;
+$secondary: #ebe9fc;
 
 .bio {
   color: $secondary;
-  text-align: left;
   line-height: 2;
 }
 
@@ -20,9 +19,18 @@ $secondary: #ffffff;
   margin-bottom: 40px;
 }
 
-.lottie{
+.image-right {
+  @media(max-width:900px){
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  }
+  
+}
+
+.about-pic{
   @media (max-width: 900px) {
-    margin-right: 50px; // Adjust as needed for medium screens
+    margin-left: 90px; // Adjust as needed for medium screens
   }
 
   @media (max-width: 576px) {
@@ -38,6 +46,6 @@ $secondary: #ffffff;
   
   text-align:center;
   @media (min-width: 900px) { // sm breakpoint and up
-    text-align: left;
+    text-align: right;
   }
 }
