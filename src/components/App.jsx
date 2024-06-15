@@ -13,15 +13,13 @@ function App() {
       <div className="content">
         <Nav />
         <Hero />
+
         <About />
         <Skills />
-        <Projects/>
-        
-        
+        <Projects />
       </div>
     </div>
   );
-
 }
 
 export default App;
