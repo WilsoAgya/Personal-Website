@@ -1,0 +1,27 @@
+$secondary: #fff;
+
+.bio {
+  color: $secondary;
+  line-height: 2;
+}
+
+
+.formstyle{
+  color:white;
+}
+
+.form-control{
+  color:white;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1; /* Ensures the placeholder is fully visible */
+}
+/* For better browser support */
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}

@@ -6,15 +6,23 @@
 .background {
 }
 
-.gradient_bg {
+.stable_bg {
   background-color: #090917;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
+  height:auto;
+  
+
   // Ensures the gradient background stays behind other content
+}
+
+.gradient_bg {
+  background-color: rgb(9, 9, 23);
+  height:100%;
+
+  background: linear-gradient(
+    200deg,
+    rgba(9, 9, 23, 1) 49%,
+    rgba(67, 47, 154, 1) 95%
+  );
 }
 
 .content {
