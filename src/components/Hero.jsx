@@ -8,7 +8,7 @@ function Hero() {
   return (
     <header>
       <div className="container-xl display-hero d-flex align-items-center min-vh-100">
-        <div className="row mx-xl-4 mx-md-5 w-100 mb-5">
+        <div className="row mx-xl-5 mx-md-5 w-100 mb-5">
           <div className="col-md-7 d-flex flex-column justify-content-center order-last order-md-first text-center text-md-start mb-5">
             <h1 className="col-md-12 text-responsive-center-hero">
               Nice to Meet You, I'm
@@ -36,14 +36,17 @@ function Hero() {
               <img src={email} alt="logo for github" class="linkedin"></img>
             </div>
             <div class="mt-2">
-              <button type="button" class="btn btn-lg btn-primary px-5 custom">
+              <button
+                type="button"
+                class="btn btn-lg btn-primary px-5 custom mt-2"
+              >
                 Resume
               </button>
             </div>
           </div>
 
           <div className="col-lg-5 col-md-5 mt-lg-3 order-first order-md-last">
-            <img src={profilepic} className="profilepic"></img>
+            <img src={profilepic} className="heropic"></img>
           </div>
         </div>
       </div>

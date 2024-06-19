@@ -11,8 +11,8 @@ $secondary: #ebe9fc;
   color: $secondary;
 }
 
-.display-about{
-  height:auto;
+.display-about {
+  height: auto;
 }
 
 .move-up {
@@ -20,15 +20,14 @@ $secondary: #ebe9fc;
 }
 
 .image-right {
-  @media(max-width:900px){
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
+  @media (max-width: 900px) {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
   }
-  
 }
 
-.about-pic{
+.about-pic {
   @media (max-width: 900px) {
     margin-left: 90px; // Adjust as needed for medium screens
   }
@@ -43,9 +42,22 @@ $secondary: #ebe9fc;
 }
 
 .text-responsive-center {
-  
-  text-align:center;
-  @media (min-width: 900px) { // sm breakpoint and up
+  text-align: center;
+  @media (min-width: 900px) {
+    // sm breakpoint and up
     text-align: left;
   }
+}
+
+.profilepic {
+  width: 370px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+
+  background-size: cover;
+
+  max-width: 300px;
 }
