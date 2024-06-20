@@ -6,7 +6,7 @@ header {
   //background-color: $primary;
 
   color: $secondary;
-  z-index: 2;
+  
   position: relative;
   overflow: hidden;
 }
@@ -51,6 +51,8 @@ header {
   border: none; // Optional: Removes any border
   color: $secondary; // Sets the text color
 }
+
+
 
 .heropic {
   width: 400px;
@@ -137,4 +139,8 @@ header {
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
+}
+
+.logos{
+  z-index:2;
 }
