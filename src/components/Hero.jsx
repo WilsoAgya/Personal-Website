@@ -9,7 +9,7 @@ import githublogo from "/images/githublogo.png";
 function Hero() {
   return (
     <header>
-      <div className="container-xl display-hero my-lg-auto my-4 d-flex align-items-center justify-content-center min-vh-100">
+      <div className="container-xl display-hero my-lg-auto my-5 d-flex align-items-center justify-content-center min-vh-100">
         <div className="row mx-xl-5 mx-md-5 w-100 mb-5">
           <div className="col-md-7 d-flex flex-column justify-content-center order-last order-md-first text-center text-md-start mb-5">
             <h1 className="col-md-12 text-responsive-center-hero">

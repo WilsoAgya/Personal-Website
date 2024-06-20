@@ -23,9 +23,9 @@ function Projects() {
 
     return(
   <div className="container-xl">
-    <div className="row my-5 mx-lg-5 py-5">
+    <div className="row my-5 mx-lg-3 mx-md-auto d-flex justify-content-center">
     <div class="row">
-    <h1 className="title">PROJECTS</h1>
+    <h1 className="title text-responsive-center">PROJECTS</h1>
       {ProjectList.map((project) => <Cards name={project.name} tags={project.tags} image={project.image} description={project.description}>
       </Cards>)}
     </div>
