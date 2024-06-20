@@ -97,7 +97,7 @@ function Skills() {
   return (
     <div className="container-xl">
     
-      <div className="row mx-lg-5 my-5">
+      <div className="row mx-lg-5 my-5 mx-3 text-responsive-center">
         <div className="col-12 mt-5 py-5">
           <h1 className="title">MY SKILLS</h1>
           <h3 className="subtitle">Frontend</h3>
@@ -126,7 +126,7 @@ function Skills() {
 function Frontend(props) {
   return (
     <div className="frontend-skills">
-      <img src={props.image} width="50px" height="50px" className="mx-2" />
+      <img src={props.image} className="skill-image mx-lg-2" />
       <h4 className="skill-name px-3 py-3">{props.name}</h4>
     </div>
   );
@@ -135,7 +135,7 @@ function Frontend(props) {
 function Backend(props) {
   return (
     <div className="frontend-skills">
-      <img src={props.image} width="50px" height="50px" className="mx-2" />
+      <img src={props.image} className="skill-image mx-2" />
       <h4 className="skill-name px-3 py-3">{props.name}</h4>
     </div>
   );
@@ -144,7 +144,7 @@ function Backend(props) {
 function Tools(props) {
   return (
     <div className="frontend-skills">
-      <img src={props.image} width="50px" height="50px" className="mx-2" />
+      <img src={props.image} className="skill-image mx-2" />
       <h4 className="skill-name px-3 py-3">{props.name}</h4>
     </div>
   );

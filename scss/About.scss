@@ -36,14 +36,11 @@ $secondary: #ebe9fc;
     margin-bottom: 20px; // Ensure spacing on small screens
   }
 }
-.lottie-animation {
-  width: 100%;
-  max-width: 500px; // Default max width
-}
+
 
 .text-responsive-center {
   text-align: center;
-  @media (min-width: 900px) {
+  @media (min-width: 750px) {
     // sm breakpoint and up
     text-align: left;
   }
@@ -54,10 +51,14 @@ $secondary: #ebe9fc;
   height: auto;
   display: block;
   margin: 0 auto;
+  border:solid 3px rgb(111, 0, 246);
+  border-radius:40px;
   z-index: 2;
   position: relative;
 
   background-size: cover;
-
+  
+  min-width:200px;
   max-width: 300px;
+
 }

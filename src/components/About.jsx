@@ -5,9 +5,9 @@ import Lottie from "lottie-react";
 function About() {
   return (
     <div className="container-xl overflow-hidden">
-      <div className="row mx-lg-5 d-flex justify-content-center my-lg-auto py-lg-a my-md-auto py-md-autouto">
+      <div className="row mx-lg-5 mx-4 my-lg-5 my-md-3  my-5 ">
         <h1 className="title text-responsive-center">ABOUT ME</h1>
-        <div className="col-12 col-md-8 order-2 order-md-1">
+        <div className="col-12 col-lg-8 col-md-7 order-2 order-md-1 ">
           <h5 className="bio text-responsive-center mx-auto">
             I'm currently a third-year Computer Science student studying at the
             University of the Fraser Valley, with a concentration in Software
@@ -20,7 +20,7 @@ function About() {
             message!
           </h5>
         </div>
-        <div className="col-12 col-md-4 order-1 order-md-2">
+        <div className="col-12 col-lg-4 col-md-5 order-1 order-md-2 mx-auto  my-4 my-md-0">
           <img src="images/profilepic2.jpg" className="profilepic w-100" />
         </div>
       </div>

@@ -19,12 +19,21 @@ $secondary: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 14px;
+  
 }
 
 .card-styles:hover {
   transform: translateY(-10px);
   box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
   filter: brightness(1.1);
+}
+
+.text-responsive-center {
+  text-align: center;
+  @media (min-width: 750px) {
+    // sm breakpoint and up
+    text-align: left;
+  }
 }
 
 /* Parent container for the cards */
@@ -71,4 +80,8 @@ $secondary: #ffffff;
   object-fit: cover;
   border:solid white;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-header{
+  border:none;
 }
