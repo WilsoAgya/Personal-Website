@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 function About() {
   return (
     <div className="container-xl overflow-hidden">
-      <div className="row mx-lg-5 d-flex justify-content-center my-lg-auto py-lg-auto my-5 py-5">
+      <div className="row mx-lg-5 d-flex justify-content-center my-lg-auto py-lg-a my-md-auto py-md-autouto">
         <h1 className="title text-responsive-center">ABOUT ME</h1>
         <div className="col-12 col-md-8 order-2 order-md-1">
           <h5 className="bio text-responsive-center mx-auto">
