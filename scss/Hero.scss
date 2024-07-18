@@ -6,7 +6,7 @@ header {
   //background-color: $primary;
 
   color: $secondary;
-  
+
   position: relative;
   overflow: hidden;
 }
@@ -52,8 +52,6 @@ header {
   color: $secondary; // Sets the text color
 }
 
-
-
 .heropic {
   width: 400px;
   height: auto;
@@ -93,20 +91,19 @@ header {
   border: solid 1px darken(#0040c1, 8%);
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: cube 10s ease-in forwards infinite;
+  animation: cube 10s ease-in-out infinite;
 
   &:nth-child(2n) {
     border-color: lighten(#0040c1, 10%);
   }
 
   &:nth-child(2) {
-    animation-delay: 2s;
     left: 25vw;
     top: 40vh;
   }
 
   &:nth-child(3) {
-    animation-delay: 4s;
+    animation-delay: 2s;
     left: 75vw;
     top: 50vh;
   }
@@ -141,6 +138,6 @@ header {
   }
 }
 
-.logos{
-  z-index:2;
+.logos {
+  z-index: 2;
 }

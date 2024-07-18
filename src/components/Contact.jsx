@@ -13,7 +13,7 @@ function Contact() {
 
   return (
     <div className="container-xl">
-      <div className="row mx-4 py-2">
+      <div className="row mx-4 py-5">
         <h1 className="title">CONTACT</h1>
         <div className=" col-md-8 mb-3 ">
           <h2 className="bio">Let's get in touch!</h2>

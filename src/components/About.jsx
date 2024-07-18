@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 
 function About() {
   return (
-    <div className="container-xl overflow-hidden">
+    <div className="container-xl overflow-hidden" data-aos='fade-down' data-aos-duration='2000'>
       <div className="row mx-lg-5 mx-4 my-lg-5 my-md-3  my-5 ">
         <h1 className="title text-responsive-center">ABOUT ME</h1>
         <div className="col-12 col-lg-8 col-md-7 order-2 order-md-1 ">
