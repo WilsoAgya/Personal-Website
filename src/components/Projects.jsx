@@ -1,6 +1,13 @@
 import "/scss/Projects.scss";
+import React,{useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
 
   const ProjectList =[
     { image:"images/pokeguess.png",
@@ -22,8 +29,10 @@ function Projects() {
   ]
 
     return(
-  <div className="container-xl">
+  <div className="container-xl" data-aos='fade-up'>
+    
     <div className="row my-5 mx-lg-3 mx-md-auto d-flex justify-content-center">
+      
     <div class="row">
     <h1 className="title text-responsive-center">PROJECTS</h1>
       {ProjectList.map((project) => <Cards name={project.name} tags={project.tags} image={project.image} description={project.description}>
@@ -38,7 +47,7 @@ function Cards(props){
 
   return(
   
-  <div className="col-lg">
+  <div className="col-lg" data-aos='fade-up'>
     <div className="card card-styles">
       <img src ={props.image} alt={props.name} className="img-style"/>
       <h4 className="card-header">{props.name}</h4>
