@@ -2,6 +2,7 @@ import "/scss/Skills.scss";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import vscode from "/images/vscode.png";
 
 function Skills() {
   useEffect(() => {
@@ -10,7 +11,7 @@ function Skills() {
   const tools = [
     {
       name: "VS Code",
-      image: "/images/vscode.png",
+      image: vscode,
     },
     {
       name: "Git",
