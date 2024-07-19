@@ -3,102 +3,60 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import vscode from "/images/vscode.png";
+import git from "/images/git.png";
+import npm from "/images/npm.png";
+import wordpress from "/images/wordpress.png";
+import figma from "/images/figma.png";
+import node from "/images/node.png";
+import vite from "/images/Vite.png";
+import php from "/images/php.png";
+import sql from "/images/SQL.png";
+import python from "/images/python.png";
+import mongodb from "/images/mongodb.png";
+import java from "/images/java.png";
+import express from "/images/express.png";
+import xampp from "/images/xampp.png";
+import javascript from "/images/JavaScript.png";
+import react from "/images/react.png";
+import bootstrap from "/images/BootStrap.png";
+import sass from "/images/sass.png";
+import html from "/images/Html.png";
+import css from "/images/css.png";
+import tailwind from "/images/tailwind.png";
 
 function Skills() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   const tools = [
-    {
-      name: "VS Code",
-      image: vscode,
-    },
-    {
-      name: "Git",
-      image: "/images/git.png",
-    },
-    {
-      name: "NPM",
-      image: "/images/npm.png",
-    },
-    {
-      name: "WordPress",
-      image: "/images/wordpress.png",
-    },
-    {
-      name: "Figma",
-      image: "/images/figma.png",
-    },
+    { name: "VS Code", image: vscode },
+    { name: "Git", image: git },
+    { name: "NPM", image: npm },
+    { name: "WordPress", image: wordpress },
+    { name: "Figma", image: figma },
   ];
 
   const backend = [
-    {
-      name: "Node",
-      image: "images/node.png",
-    },
-    {
-      name: "Vite",
-      image: "images/Vite.png",
-    },
-    {
-      name: "PHP",
-      image: "images/php.png",
-    },
-    {
-      name: "SQL",
-      image: "images/SQL.png",
-    },
-    {
-      name: "Python",
-      image: "images/python.png",
-    },
-    {
-      name: "MongoDB",
-      image: "images/mongodb.png",
-    },
-    {
-      name: "Java",
-      image: "images/java.png",
-    },
-    {
-      name: "Express",
-      image: "images/express.png",
-    },
-    {
-      name: "XAMPP",
-      image: "images/xampp.png",
-    },
+    { name: "Node", image: node },
+    { name: "Vite", image: vite },
+    { name: "PHP", image: php },
+    { name: "SQL", image: sql },
+    { name: "Python", image: python },
+    { name: "MongoDB", image: mongodb },
+    { name: "Java", image: java },
+    { name: "Express", image: express },
+    { name: "XAMPP", image: xampp },
   ];
 
   const frontend = [
-    {
-      name: "JavaScript",
-      image: "/images/JavaScript.png",
-    },
-    {
-      name: "React.js",
-      image: "/images/react.png",
-    },
-    {
-      name: "Bootstrap",
-      image: "/images/BootStrap.png",
-    },
-    {
-      name: "SASS",
-      image: "/images/sass.png",
-    },
-    {
-      name: "HTML",
-      image: "/images/Html.png",
-    },
-    {
-      name: "CSS",
-      image: "/images/css.png",
-    },
-    {
-      name: "Tailwind",
-      image: "/images/tailwind.png",
-    },
+    { name: "JavaScript", image: javascript },
+    { name: "React.js", image: react },
+    { name: "Bootstrap", image: bootstrap },
+    { name: "SASS", image: sass },
+    { name: "HTML", image: html },
+    { name: "CSS", image: css },
+    { name: "Tailwind", image: tailwind },
   ];
 
   return (
@@ -116,12 +74,12 @@ function Skills() {
               <Frontend name={front.name} image={front.image} />
             ))}
           </div>
-          <h3 class="subtitle">Backend</h3>
+          <h3 className="subtitle">Backend</h3>
           {backend.map((back) => (
             <Backend name={back.name} image={back.image} />
           ))}
           <div>
-            <h3 class="subtitle">Tools</h3>
+            <h3 className="subtitle">Tools</h3>
             {tools.map((tool) => (
               <Tools name={tool.name} image={tool.image} />
             ))}

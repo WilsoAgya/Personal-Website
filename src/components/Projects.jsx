@@ -2,6 +2,9 @@ import "/scss/Projects.scss";
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import pokeguess from "/images/pokeguess.png";
+import review from "/images/reView.png";
+import portfolio from "/images/website.png";
 
 function Projects() {
   useEffect(() => {
@@ -10,21 +13,21 @@ function Projects() {
 
   const ProjectList = [
     {
-      image: "images/pokeguess.png",
+      image: pokeguess,
       name: 'PokeGuess',
       tags: ["React.js", "RestAPI", "Git"],
       description: 'PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.',
       website: "https://github.com/AidenCarelse/pokeguess"
     },
     {
-      image: "images/reView.png",
+      image: review,
       name: 'reView',
       tags: ["React.js", "MongoDB", "NodeJS", "ExpressJS", "TailwindCSS"],
       description: 'A website where users can review their favourite movies and TV shows. This project is currently still in development.',
       website: "https://github.com/WilsoAgya/reView"
     },
     {
-      image: "images/website.png",
+      image: portfolio,
       name: 'Portfolio',
       tags: ["React.js", "SASS", "Bootstrap", "Git"],
       description: 'This web-application was designed to showcase my skills as a programmer. This website was made using BootStrap 5 and React-JS',
