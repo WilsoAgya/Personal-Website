@@ -2,6 +2,7 @@ import "/scss/About.scss";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import profilepic2 from "images/profilepic2.jpg";
 
 function About() {
   useEffect(() => {
@@ -26,7 +27,7 @@ function About() {
           </h5>
         </div>
         <div className="col-12 col-lg-4 col-md-5 order-1 order-md-2 mx-auto  my-4 my-md-0">
-          <img src="images/profilepic2.jpg" className="profilepic w-100" />
+          <img src="profilepic2" className="profilepic w-100" />
         </div>
       </div>
     </div>
