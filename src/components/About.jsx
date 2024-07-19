@@ -2,7 +2,7 @@ import "/scss/About.scss";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import profilepic2 from "images/profilepic2.jpg";
+import profilepic2 from "/images/profilepic2.jpg";
 
 function About() {
   useEffect(() => {
