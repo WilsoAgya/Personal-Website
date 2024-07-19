@@ -9,8 +9,8 @@ function About() {
   }, []);
 
   return (
-    <div className="container-xl overflow-hidden " id='about'>
-      <div className="row mx-lg-5 mx-4 my-md-3  my-5 py-5 " data-aos="fade-up">
+    <div className="container-xl overflow-hidden" id='about'>
+      <div className="row mx-lg-5 mx-4 my-md-3  my-4 py-4 " data-aos="fade-up">
         <h1 className="title text-responsive-center">ABOUT ME</h1>
         <div className="col-12 col-lg-8 col-md-7 order-2 order-md-1 ">
           <h5 className="bio text-responsive-center mx-auto">

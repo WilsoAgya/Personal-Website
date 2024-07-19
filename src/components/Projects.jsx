@@ -56,7 +56,7 @@ function Projects() {
 function Cards(props) {
   return (
     <div className="col-lg" data-aos='fade-up'>
-      <a href={props.website} >
+      <a href={props.website} target="_blank" rel="noopener noreferrer" className="card-link">
         <div className="card card-styles">
           <img src={props.image} alt={props.name} className="img-style" />
           <h4 className="card-header">{props.name}</h4>
