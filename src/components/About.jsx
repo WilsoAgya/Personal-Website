@@ -27,7 +27,7 @@ function About() {
           </h5>
         </div>
         <div className="col-12 col-lg-4 col-md-5 order-1 order-md-2 mx-auto  my-4 my-md-0">
-          <img src="profilepic2" className="profilepic w-100" />
+          <img src={profilepic2} className="profilepic w-100" />
         </div>
       </div>
     </div>
