@@ -10,7 +10,9 @@ import Projects from "./Projects.jsx";
 function App() {
   return (
     <div className="app-container">
+      
       <div className="content">
+
         <div className="stable_bg">
           <Nav />
           <Hero />

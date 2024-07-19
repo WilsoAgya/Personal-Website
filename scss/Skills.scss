@@ -1,20 +1,19 @@
 $secondary: #ffffff;
 
 .title {
-    font-family: "Inter", sans-serif;
-    font-size: 50px;
-    color: $secondary;
-  }
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: $secondary;
+}
 
-.subtitle{
-    color:$secondary;
+.subtitle {
+  color: $secondary;
 }
 
 .skill-image {
   width: 30px;
   height: auto;
   margin-left: 3px;
- 
 }
 
 @media (min-width: 768px) {
@@ -23,21 +22,28 @@ $secondary: #ffffff;
     height: auto;
   }
 }
+
+.frontend-skills {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: white;
   
-.frontend-skills{
-  display:inline-block;
-  border-style:solid;
-  border-radius:10px;
-  margin-right:15px;
-  margin-top:15px;
-  margin-bottom:15px;
-  border-color:white;
 }
 
-.skill-name{
-  display:inline-block;
-  padding-left:30px;
-  color:$secondary
+.frontend-skills:hover{
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in-out;
+  filter: brightness(1.1);
+}
+
+.skill-name {
+  display: inline-block;
+  padding-left: 30px;
+  color: $secondary;
 }
 
 .text-responsive-center {

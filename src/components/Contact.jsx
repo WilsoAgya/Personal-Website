@@ -18,7 +18,7 @@ function Contact() {
     
 
   return (
-    <div className="container-xl overflow-hidden" data-aos='fade'>
+    <div className="container-xl overflow-hidden" data-aos='fade' id='contact'>
       <div className="row mx-4 py-5">
         <h1 className="title">CONTACT</h1>
         <div className=" col-md-8 mb-3 ">
