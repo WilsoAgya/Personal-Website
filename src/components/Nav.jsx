@@ -1,4 +1,8 @@
 import "/scss/Nav.scss";
+import React from 'react';
+import{Link} from 'react-scroll'
+
+
 
 function Nav() {
   return (
@@ -19,24 +23,24 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link active text-secondary">
+              <Link to="about" className="nav-link" offset={-100}>
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-secondary">
+              <Link to ='skills' className="nav-link" offset={100}>
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-secondary">
+              <Link to ='projects' className="nav-link" offset={-100}>
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link text-secondary">
+              <Link to ='contact' className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

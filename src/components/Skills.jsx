@@ -1,6 +1,12 @@
 import "/scss/Skills.scss";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const tools = [
     {
       name: "VS Code",
@@ -95,10 +101,13 @@ function Skills() {
   ];
 
   return (
-    <div className="container-xl">
-    
-      <div className="row mx-lg-5 my-5 mx-3 text-responsive-center">
-        <div className="col-12 mt-5 py-5">
+    <div className="container-xl py-3 my-5 " id='skills'>
+      <div
+        className="row mx-lg-5 my-5 mx-3 text-responsive-center"
+        data-aos="fade-up"
+      >
+        <div className="col-12 my-5">
+         
           <h1 className="title">MY SKILLS</h1>
           <h3 className="subtitle">Frontend</h3>
           <div>
@@ -116,9 +125,9 @@ function Skills() {
               <Tools name={tool.name} image={tool.image} />
             ))}
           </div>
+       
         </div>
       </div>
-    
     </div>
   );
 }

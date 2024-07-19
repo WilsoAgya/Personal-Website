@@ -13,12 +13,17 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.3",
     "composer": "^4.1.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
+    "react-favicon": "^2.0.7",
+    "react-router-dom": "^6.25.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scroll": "^1.9.0",
     "react-spotify-embed": "^2.0.4",
     "sass": "^1.77.2"
   },

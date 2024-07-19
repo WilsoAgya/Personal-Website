@@ -1,8 +1,14 @@
 import "/scss/Contact.scss";
-import React from "react";
+import React,{useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const sendEmail = (e) => {
     e.preventDefault();
     alert("Message Sent");
@@ -12,8 +18,8 @@ function Contact() {
     
 
   return (
-    <div className="container-xl">
-      <div className="row mx-4 py-2">
+    <div className="container-xl overflow-hidden" data-aos='fade' id='contact'>
+      <div className="row mx-4 py-5">
         <h1 className="title">CONTACT</h1>
         <div className=" col-md-8 mb-3 ">
           <h2 className="bio">Let's get in touch!</h2>
@@ -86,7 +92,7 @@ function Contact() {
         <div className=" col-md-4">
           <h2 className="bio">Coding Music</h2>
           <iframe
-            src="https://open.spotify.com/embed/playlist/0ZAiwXozWzQle3kHk4HF2j?utm_source=generator"
+            src="https://open.spotify.com/embed/playlist/1YX1PtrlRJ11m3VBPlalPb?utm_source=generator"
             width="100%"
             height="352"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

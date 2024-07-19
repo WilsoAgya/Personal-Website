@@ -7,7 +7,7 @@ $secondary: #ffffff;
 }
 
 .card-styles {
-  height: 490px;
+  height: 500px;
   cursor: pointer;
   background-color: transparent;
   border:solid white;
@@ -24,7 +24,7 @@ $secondary: #ffffff;
 
 .card-styles:hover {
   transform: translateY(-10px);
-  box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 50px 4px rgba(111, 3, 138, 0.6);
   filter: brightness(1.1);
 }
 
