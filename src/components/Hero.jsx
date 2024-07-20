@@ -44,7 +44,7 @@ function Hero() {
               </a>
             </div>
             <div class="mt-2">
-            <a href={resumeFile} download="WilsonA_Resume.pdf">
+            <a href="https://1drv.ms/b/s!An-0n2gbHg2ikf0PBtoGThStFhoKgw?e=LMoabE">
               <button
                 type="button"
                 class="btn btn-lg btn-primary px-5 custom mt-2"
