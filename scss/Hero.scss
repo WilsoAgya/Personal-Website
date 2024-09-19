@@ -46,10 +46,26 @@ header {
   }
 }
 
+.linkedin {
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and scale */
+}
+
+.linkedin:hover {
+  border-radius: 5px;
+  transform: scale(1.05);
+  padding: 5px;
+}
+
 .btn.custom {
   background-color: #bf04fb;
   border: none; // Optional: Removes any border
   color: $secondary; // Sets the text color
+}
+
+.custom:hover {
+  background-color: #0056b3; /* Darker blue or any color of your choice */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visibility */
 }
 
 .heropic {
