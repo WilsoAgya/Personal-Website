@@ -11,6 +11,10 @@ $secondary: #ebe9fc;
   color: $secondary;
 }
 
+.university-name {
+  color: #bf04fb; /* Example color: blue */
+}
+
 .display-about {
   height: auto;
 }
@@ -37,7 +41,6 @@ $secondary: #ebe9fc;
   }
 }
 
-
 .text-responsive-center {
   text-align: center;
   @media (min-width: 750px) {
@@ -51,14 +54,13 @@ $secondary: #ebe9fc;
   height: auto;
   display: block;
   margin: 0 auto;
-  border:solid 3px rgb(111, 0, 246);
-  border-radius:40px;
+  border: solid 3px rgb(111, 0, 246);
+  border-radius: 40px;
   z-index: 2;
   position: relative;
 
   background-size: cover;
-  
-  min-width:200px;
-  max-width: 300px;
 
+  min-width: 200px;
+  max-width: 300px;
 }

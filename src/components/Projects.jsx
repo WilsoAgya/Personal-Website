@@ -1,10 +1,12 @@
 import "/scss/Projects.scss";
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import pokeguess from "/images/pokeguess.png";
 import review from "/images/reView.png";
 import portfolio from "/images/website.png";
+import utukufupic from "/images/utukufupic.jpg";
+import pomodoro from "/images/pomodoro.jpg";
 
 function Projects() {
   useEffect(() => {
@@ -14,29 +16,49 @@ function Projects() {
   const ProjectList = [
     {
       image: pokeguess,
-      name: 'PokeGuess',
+      name: "PokeGuess",
       tags: ["React.js", "RestAPI", "Git"],
-      description: 'PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.',
-      website: "https://github.com/AidenCarelse/pokeguess"
+      description:
+        "PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.",
+      website: "https://github.com/AidenCarelse/pokeguess",
     },
     {
-      image: review,
-      name: 'reView',
-      tags: ["React.js", "MongoDB", "NodeJS", "ExpressJS", "TailwindCSS"],
-      description: 'A website where users can review their favourite movies and TV shows. This project is currently still in development.',
-      website: "https://github.com/WilsoAgya/reView"
+      image: utukufupic,
+      name: "Utukufu Gospel Ministries",
+      tags: ["React.js", "MongoDB", "TailwindCSS", "ExpressJS", "Git"],
+      description:
+        "The official website for Utukufu Gospel Ministries, highlighting service times, ministries, and key details. Project files are private, but feel free to reach out for more information.",
+      website: "https://github.com/WilsoAgya/utukufu-gospel",
     },
     {
       image: portfolio,
-      name: 'Portfolio',
+      name: "Portfolio",
       tags: ["React.js", "SASS", "Bootstrap", "Git"],
-      description: 'This web-application was designed to showcase my skills as a programmer. This website was made using BootStrap 5 and React-JS',
-      website: "https://github.com/WilsoAgya/Personal-Website"
-    }
+      description:
+        "This web-application was designed to showcase my skills as a programmer. This website was made using BootStrap 5 and React-JS",
+      website: "https://github.com/WilsoAgya/Personal-Website",
+    },
+    {
+      image: review,
+      name: "reView",
+      tags: ["React.js", "MongoDB", "NodeJS", "ExpressJS", "TailwindCSS"],
+      description:
+        "A website where users can review their favourite movies and TV shows. This project is currently still in development.",
+      website: "https://github.com/WilsoAgya/reView",
+    },
+    {
+      image: pomodoro,
+      name: "Pomodoro Timer",
+      tags: ["Java", "Git", "Java Swing"],
+      description:
+        "A study timer for students or contributors using the Pomodoro productivity method. This Java GUI let's users set an amount of study time and break time, also included with a to-do list. ",
+      website:
+        "https://github.com/AidenCarelse/Fall-Hacks-2022?tab=readme-ov-file",
+    },
   ];
 
   return (
-    <div className="container-xl" data-aos='fade-up' id='projects'>
+    <div className="container-xl" data-aos="fade-up" id="projects">
       <div className="row my-5 mx-lg-3 mx-md-auto d-flex justify-content-center">
         <div className="row">
           <h1 className="title text-responsive-center">PROJECTS</h1>
@@ -58,14 +80,21 @@ function Projects() {
 
 function Cards(props) {
   return (
-    <div className="col-lg" data-aos='fade-up'>
-      <a href={props.website} target="_blank" rel="noopener noreferrer" className="card-link">
-        <div className="card card-styles">
+    <div className="col-lg-4" data-aos="fade-up">
+      <a
+        href={props.website}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-link"
+      >
+        <div className="card card-styles ">
           <img src={props.image} alt={props.name} className="img-style" />
           <h4 className="card-header">{props.name}</h4>
           <div className="tags">
             {props.tags.map((tag) => (
-              <div className="tag" key={tag}>{tag}</div>
+              <div className="tag" key={tag}>
+                {tag}
+              </div>
             ))}
           </div>
           <div className="card-body">
