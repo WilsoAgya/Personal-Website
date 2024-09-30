@@ -58,14 +58,14 @@ header {
 
 .btn.custom {
   background-color: #bf04fb;
-  border: none; // Optional: Removes any border
-  color: $secondary; // Sets the text color
+  border: none;
+  color: $secondary;
 }
 
 .custom:hover {
-  background-color: #0056b3; /* Darker blue or any color of your choice */
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow for better visibility */
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .heropic {
