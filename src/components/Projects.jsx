@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import pokeguess from "/images/pokeguess.png";
-import review from "/images/reView.png";
+import Isstrackerimg from "/images/Isstrackerimg.jpg";
 import portfolio from "/images/website.png";
 import utukufupic from "/images/utukufupic.jpg";
 import pomodoro from "/images/pomodoro.jpg";
@@ -39,12 +39,12 @@ function Projects() {
       website: "https://github.com/WilsoAgya/Personal-Website",
     },
     {
-      image: review,
-      name: "reView",
-      tags: ["React.js", "MongoDB", "NodeJS", "ExpressJS", "TailwindCSS"],
+      image: Isstrackerimg,
+      name: "ISS Tracker",
+      tags: ["React.js", "RestAPI", "Bootstrap"],
       description:
-        "A website where users can review their favourite movies and TV shows. This project is currently still in development.",
-      website: "https://github.com/WilsoAgya/reView",
+        "The ISS Tracker is a dynamic web app built during SFU Fall Hacks 2024 to track the International Space Station's location on an interactive map. It displays live data like speed, altitude, and upcoming passes over SFU.",
+      website: "https://github.com/WilsoAgya/iss-tracker",
     },
     {
       image: pomodoro,

@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.3",
     "composer": "^4.1.0",
     "lottie-react": "^2.4.0",
+    "portfoliowebsite": "file:",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
