@@ -2,7 +2,6 @@ import "/scss/Hero.scss";
 import linkedinlogo from "/images/linkedinlogo.png";
 import email from "/images/email.png";
 import profilepic from "/images/profilepic.png";
-import resumeFile from "../files/WilsonA_Resume.pdf";
 import githublogo from "/images/githublogo.png";
 
 function Hero() {
@@ -32,7 +31,7 @@ function Hero() {
                 <img
                   src={linkedinlogo}
                   alt="logo for linkedin"
-                  class="linkedin text-responsive-center"
+                  className="linkedin text-responsive-center"
                 ></img>
               </a>
               <a
@@ -43,16 +42,20 @@ function Hero() {
                 <img
                   src={githublogo}
                   alt="logo for github"
-                  class="linkedin mx-3 text-responsive-center"
+                  className="linkedin mx-3 text-responsive-center"
                 ></img>
               </a>
               <a href="mailto:wilsonagyapong16@gmail.com">
-                <img src={email} alt="logo for github" class="linkedin"></img>
+                <img
+                  src={email}
+                  alt="logo for github"
+                  className="linkedin"
+                ></img>
               </a>
             </div>
             <div className="mt-2">
               <a
-                href={resumeFile}
+                href="/files/WilsonAgyapong_Resume.pdf"
                 download="WilsonA_Resume.pdf"
                 className="btn btn-lg btn-primary px-5 custom mt-2"
                 style={{ zIndex: 2, position: "relative" }}
