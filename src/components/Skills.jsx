@@ -39,7 +39,7 @@ function Skills() {
 
   const backend = [
     { name: "Node", image: node },
-    { name: "Vite", image: vite },
+
     { name: "PHP", image: php },
     { name: "SQL", image: sql },
     { name: "Python", image: python },
@@ -52,6 +52,7 @@ function Skills() {
   const frontend = [
     { name: "JavaScript", image: javascript },
     { name: "React.js", image: react },
+    { name: "Vite", image: vite },
     { name: "Bootstrap", image: bootstrap },
     { name: "SASS", image: sass },
     { name: "HTML", image: html },
@@ -60,13 +61,12 @@ function Skills() {
   ];
 
   return (
-    <div className="container-xl py-3 my-5 " id='skills'>
+    <div className="container-xl py-3 my-5 " id="skills">
       <div
         className="row mx-lg-5 my-5 mx-3 text-responsive-center"
         data-aos="fade-up"
       >
         <div className="col-12 my-5">
-         
           <h1 className="title">MY SKILLS</h1>
           <h3 className="subtitle">Frontend</h3>
           <div>
@@ -84,7 +84,6 @@ function Skills() {
               <Tools name={tool.name} image={tool.image} />
             ))}
           </div>
-       
         </div>
       </div>
     </div>

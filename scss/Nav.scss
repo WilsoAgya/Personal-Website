@@ -1,27 +1,29 @@
 $primary: #4d4855;
 $secondary: #ebe9fc;
 
+@font-face {
+  font-family: "ankh-sanctuary";
+  src: url("../src/fonts/AnkhSanctuary-PVK0B.ttf") format("truetype");
+}
+
+.customFont {
+  font-family: "ankh-sanctuary", sans-serif;
+}
+
 nav {
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  z-index:2;
+  z-index: 2;
 
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
-
-
-
 }
 
 .navbar-nav .nav-link:hover {
-  
   color: #bf04fb; // Change this to your desired text color on hover
 }
 
-.navbar-nav .nav-link{
-  color:$secondary;
+.navbar-nav .nav-link {
+  color: $secondary;
 }
-
-
-

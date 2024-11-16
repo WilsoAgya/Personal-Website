@@ -55,8 +55,7 @@ function Hero() {
             </div>
             <div className="mt-2">
               <a
-                href="/files/WilsonAgyapong_Resume.pdf"
-                download="WilsonA_Resume.pdf"
+                href="https://drive.google.com/file/d/1KcZtvOl61xRgJiwpZC8JrGa8BMId0Xq2/view?usp=sharing"
                 className="btn btn-lg btn-primary px-5 custom mt-2"
                 style={{ zIndex: 2, position: "relative" }}
               >
