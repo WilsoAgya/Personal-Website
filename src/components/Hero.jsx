@@ -5,7 +5,6 @@ import profilepic from "/images/profilepic.png";
 import resumeFile from "../files/WilsonA_Resume.pdf";
 import githublogo from "/images/githublogo.png";
 
-
 function Hero() {
   return (
     <header>
@@ -25,34 +24,41 @@ function Hero() {
               clients.
             </h5>
             <div className="mt-5">
-            <a href="https://www.linkedin.com/in/wilson-agyapong-b652a7252/" target="_blank" rel="noopener noreferrer">
-              <img
-                src={linkedinlogo}
-                alt="logo for linkedin"
-                class="linkedin text-responsive-center"
-              ></img>
-            </a>
-            <a href="https://github.com/WilsoAgya/" target="_blank" rel="noopener noreferrer">
-              <img
-                src={githublogo}
-                alt="logo for github"
-                class="linkedin mx-3 text-responsive-center"
-              ></img>
+              <a
+                href="https://www.linkedin.com/in/wilson-agyapong-b652a7252/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={linkedinlogo}
+                  alt="logo for linkedin"
+                  class="linkedin text-responsive-center"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/WilsoAgya/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={githublogo}
+                  alt="logo for github"
+                  class="linkedin mx-3 text-responsive-center"
+                ></img>
               </a>
               <a href="mailto:wilsonagyapong16@gmail.com">
-              <img src={email} alt="logo for github" class="linkedin"></img>
+                <img src={email} alt="logo for github" class="linkedin"></img>
               </a>
             </div>
-            <div class="mt-2">
-            <a href="https://1drv.ms/b/s!An-0n2gbHg2ikf0PBtoGThStFhoKgw?e=LMoabE">
-              <button
-                type="button"
-                class="btn btn-lg btn-primary px-5 custom mt-2"
-                style={{ zIndex: 2, position: 'relative' }}
+            <div className="mt-2">
+              <a
+                href={resumeFile}
+                download="WilsonA_Resume.pdf"
+                className="btn btn-lg btn-primary px-5 custom mt-2"
+                style={{ zIndex: 2, position: "relative" }}
               >
                 Resume
-              </button>
-            </a>
+              </a>
             </div>
           </div>
 
