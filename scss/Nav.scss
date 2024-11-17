@@ -1,14 +1,4 @@
-$primary: #4d4855;
-$secondary: #ebe9fc;
 
-@font-face {
-  font-family: "ankh-sanctuary";
-  src: url("../src/fonts/AnkhSanctuary-PVK0B.ttf") format("truetype");
-}
-
-.customFont {
-  font-family: "ankh-sanctuary", sans-serif;
-}
 
 nav {
   font-family: "Inter", sans-serif;
@@ -21,7 +11,7 @@ nav {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #bf04fb; // Change this to your desired text color on hover
+  color: #bf04fb; 
 }
 
 .navbar-nav .nav-link {
