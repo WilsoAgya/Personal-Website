@@ -1,5 +1,4 @@
 import "/scss/Nav.scss";
-import React from "react";
 import { Link } from "react-scroll";
 
 function Nav() {

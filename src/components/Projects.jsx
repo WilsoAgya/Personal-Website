@@ -1,5 +1,5 @@
 import "/scss/Projects.scss";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import pokeguess from "/images/pokeguess.png";
@@ -7,6 +7,7 @@ import Isstrackerimg from "/images/Isstrackerimg.jpg";
 import portfolio from "/images/website.png";
 import utukufupic from "/images/utukufupic.jpg";
 import pomodoro from "/images/pomodoro.jpg";
+import UFVBay from "/images/UFVBayimg.png";
 
 function Projects() {
   useEffect(() => {
@@ -15,17 +16,25 @@ function Projects() {
 
   const ProjectList = [
     {
-      image: pokeguess,
-      name: "PokeGuess",
-      tags: ["React.js", "RestAPI", "Git"],
+      image: UFVBay,
+      name: "UFVBay",
+      tags: ["React.js", "SpringBoot", "Bootstrap", "SQL"],
       description:
-        "PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.",
-      website: "https://github.com/AidenCarelse/pokeguess",
+        "UFVBay is a platform developed for UFV students to conduct in person meetups for trading or buying textbooks on campus. This application was aimed to help students have an easier time finding used textbooks while strengthening UFV's efforts toward sustainability.",
+      website: "https://github.com/WilsoAgya/ufvbay",
+    },
+    {
+      image: Isstrackerimg,
+      name: "ISS Tracker",
+      tags: ["React.js", "RestAPI", "Bootstrap", "Git"],
+      description:
+        "Developed as a submission for SFU Fall Hacks 2024, this web-application was created to track the International Space Station's location using Google Map's API. The web-app displays live data such as speed, altitude and upcoming passes over SFU",
+      website: "https://github.com/WilsoAgya/iss-tracker",
     },
     {
       image: utukufupic,
       name: "Utukufu Gospel Ministries",
-      tags: ["React.js", "MongoDB", "TailwindCSS", "ExpressJS", "Git"],
+      tags: ["React.js", "MongoDB", "TailwindCSS", "Node.js", "Git"],
       description:
         "The official website for Utukufu Gospel Ministries, highlighting service times, ministries, and key details. Project files are private, but feel free to reach out for more information.",
       website: "https://github.com/WilsoAgya/utukufu-gospel",
@@ -38,13 +47,14 @@ function Projects() {
         "This web-application was designed to showcase my skills as a programmer. This website was made using BootStrap 5 and React-JS",
       website: "https://github.com/WilsoAgya/Personal-Website",
     },
+
     {
-      image: Isstrackerimg,
-      name: "ISS Tracker",
-      tags: ["React.js", "RestAPI", "Bootstrap"],
+      image: pokeguess,
+      name: "PokeGuess",
+      tags: ["React.js", "RestAPI", "Git"],
       description:
-        "The ISS Tracker is a dynamic web app built during SFU Fall Hacks 2024 to track the International Space Station's location on an interactive map. It displays live data like speed, altitude, and upcoming passes over SFU.",
-      website: "https://github.com/WilsoAgya/iss-tracker",
+        "PokeGuess is a game where players guess what the mystery Pokemon is based on given clues.",
+      website: "https://github.com/AidenCarelse/pokeguess",
     },
     {
       image: pomodoro,
