@@ -34,7 +34,7 @@ function Projects() {
     {
       image: utukufupic,
       name: "Utukufu Gospel Ministries",
-      tags: ["React.js", "MongoDB", "TailwindCSS", "Node.js", "Git"],
+      tags: ["React.js", "MongoDB", "TailwindCSS", "Node.js", "Amazon S3", "Git"],
       description:
         "The official website for Utukufu Gospel Ministries, highlighting service times, ministries, and key details. Project files are private, but feel free to reach out for more information.",
       website: "https://github.com/WilsoAgya/utukufu-gospel",
